@@ -51,4 +51,4 @@ with open(data_csv, 'r') as csvfile:
     output_file = open("HWFile.txt","w")
     for x in range(len(formatted_data)):
         print(formatted_data[x])
-        output_file.write(formatted_data[x])
+        output_file.write(formatted_data[x]+"\n")
